@@ -53,6 +53,7 @@ body {
   max-width: 1920;
   min-height: 100vh;
 }
+
 .content {
   max-width: 87.5vw;
   height: auto;
@@ -248,7 +249,7 @@ hr {
   flex-wrap: wrap;
 }
 .members {
-  width: 32%;
+  width: 31%;
   height: 593px;
   margin-bottom: 80px;
   background-size: auto;
