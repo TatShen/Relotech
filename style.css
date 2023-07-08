@@ -1,0 +1,370 @@
+@font-face {
+  font-family: Roboto-medium;
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto-medium-italic;
+  src: url(fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-regular;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merri-bold;
+  src: url(fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: Bookman;
+  src: url(fonts/bookmanoldstyle/BOOKOS.TTF);
+}
+
+@font-face {
+  font-family: Roboto-mono;
+  src: url(fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: SF-UI;
+  src: url(fonts/SF-UI/SFUIDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: SF-UI-regular;
+  src: url(fonts/SF-UI/SFUIDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Slab;
+  src: url(fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.container {
+  max-width: 1920;
+  min-height: 100vh;
+}
+.content {
+  max-width: 87.5vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+header {
+  background-image: url(images/backgraund.png);
+  max-width: 100vw;
+  height: 1048px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.menu,
+.footer_menu {
+  display: flex;
+  height: 106px;
+  margin-top: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.menu_bar a {
+  text-decoration: none;
+  font-family: Roboto-medium;
+  font-size: 20px;
+  color: rgba(143, 150, 162, 1);
+  margin-left: 90px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.menu_bar a:hover,
+.menu_bar a:active {
+  color: rgba(251, 206, 177, 1);
+}
+
+.slogan {
+  height: 220px;
+  padding-top: 20px;
+}
+
+.slogan h2 {
+  font-family: Roboto-regular;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(143, 150, 162, 1);
+}
+
+.description {
+  height: 200px;
+}
+
+.description h1 {
+  font-family: Merri-bold;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  color: rgba(251, 206, 177, 1);
+  margin-bottom: 24px;
+}
+
+.description p {
+  font-family: Roboto-regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(143, 150, 162, 1);
+  margin: 0;
+}
+
+.home button {
+  width: 480px;
+  height: 65px;
+  text-align: left;
+  margin-top: 195px;
+  background-color: rgba(251, 206, 177, 1);
+  font-family: Roboto-medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(54, 60, 69, 1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.main_content {
+  max-width: 87.5vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.about {
+  display: block;
+  width: 100vw;
+  height: 912px;
+  background-color: rgba(251, 206, 177, 1);
+}
+
+.about .main_content h2 {
+  font-family: Bookman;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(54, 60, 69, 1);
+  margin-top: 100px;
+  margin-bottom: 85px;
+}
+
+img.aboutCompany {
+  width: 880px;
+  height: 578px;
+  float: left;
+  margin-right: 120px;
+}
+
+.about .main_content p {
+  display: block;
+  font-family: Roboto-mono;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  color: rgba(54, 60, 69, 1);
+  padding: 50px 150px 50px 0;
+}
+
+hr {
+  color: rgba(54, 60, 69, 1);
+  size: 1px;
+}
+
+.team {
+  width: 100vw;
+  height: 1615px;
+  background-color: rgba(54, 60, 69, 1);
+}
+
+.team_content {
+  max-width: 87.5vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.team_content h2 {
+  font-family: SF-UI;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 206, 177, 1);
+  margin-top: 100px;
+}
+
+.team_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.members {
+  width: 32%;
+  height: 593px;
+  margin-bottom: 80px;
+  background-size: auto;
+  padding-left: 15px;
+}
+
+.members p {
+  font-family: Roboro-Slab;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 206, 177, 1);
+  margin-top: 85%;
+}
+
+.role {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.members .text {
+  font-family: Roboto-mono;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  color: rgba(143, 150, 162, 1);
+  text-align: left;
+  margin-top: 35%;
+}
+
+.partners {
+  width: 100vw;
+  height: auto;
+  background-color: rgba(251, 206, 177, 1);
+  padding-bottom: 200px;
+}
+
+.partners_content {
+  max-width: 87.5vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.partners_content h2 {
+  font-family: SF-UI;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(54, 60, 69, 1);
+  margin-top: 100px;
+}
+
+.partners_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.partner {
+  width: 25%;
+  height: 160px;
+  border-radius: 60%;
+  background-color: rgba(54, 60, 69, 1);
+  margin-top: 160px;
+  margin-left: 15px;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background-color: rgba(54, 60, 69, 1);
+}
+
+.footer_bar a {
+  text-decoration: none;
+  font-family: SF-UI-regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 206, 177, 1);
+  margin-right: 250px;
+}
+
+.copyright {
+  margin-top: 500px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.copyright p {
+  font-family: Roboto-medium-italic;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.045em;
+  text-align: center;
+  color: rgba(251, 206, 177, 1);
+}
