@@ -249,19 +249,25 @@ hr {
   flex-wrap: wrap;
 }
 .members {
-  width: 30%;
-  height: 443px;
+  display: flex;
+  width: 31%;
+  height: 563px;
   margin-bottom: 80px;
   background-size: auto;
   padding: 0 15px;
   background-size: 100%;
   background-position: center;
- 
+  align-items: end;
+  justify-content: ;
+
+}
+
+.members .info{
+  width: 95%;
 }
 
 .members p {
   font-family: Roboro-Slab;
-
 }
 
 .name {
@@ -271,7 +277,7 @@ hr {
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 206, 177, 1);
-  margin-top: 78%;
+  
 }
 
 .role {
@@ -293,6 +299,7 @@ hr {
   color: rgba(143, 150, 162, 1);
   text-align: left;
   margin-top: 25%;
+  align-self:baseline;
 }
 
 .partners {
