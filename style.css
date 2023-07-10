@@ -259,7 +259,17 @@ hr {
   background-position: center;
   align-items: end;
   justify-content:center;
+}
 
+@media (max-width: 1537px) {
+  .content {
+      max-width: 1344px;
+  }
+
+  .members{
+    width: 30%;
+    height: 443px;
+  }
 }
 
 .members .info{
